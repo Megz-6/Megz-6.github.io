@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>أحمد مجدي محمد | الموقع الشخصي</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="links">
+      <a class="t" data-en="About" href="#about">نبذة</a>
+      <a class="t" data-en="Work" href="#projects">أعمالي</a>
+      <a class="t" data-en="Contact" href="#contact">تواصل</a>
+    </div>
+    <div class="tools">
+      <button id="lang" aria-label="Language">EN</button>
+      <button id="theme" aria-label="Theme">◐</button>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <!-- ====== القسم الأول: التعريف ====== -->
+  <header class="hero">
+    <!-- غيّر الحرف ده بأول حرف من اسمك -->
+    <!-- صورتك: حط ملف اسمه photo.jpg في نفس المجلد. لو مش موجود بيظهر الحرف الأول -->
+    <div class="avatar"><span class="t" data-en="A">أ</span><img src="photo.jpg" alt="أحمد مجدي محمد" onerror="this.remove()"></div>
+    <h1 class="t" data-en="Hi, I’m <span>Ahmed Magdy Mohamed</span>">أهلًا، أنا <span>أحمد مجدي محمد</span></h1>
+    <!-- اكتب مسماك الوظيفي أو مجال دراستك -->
+    <p class="t" data-en="Third-year student at the Faculty of Computers and Artificial Intelligence, Minya National University">طالب في الفرقة الثالثة، كلية الحاسبات والذكاء الاصطناعي، جامعة المنيا الأهلية</p>
+    <div class="btns">
+      <a class="btn main t" data-en="Get in touch" href="#contact">تواصل معايا</a>
+      <a class="btn ghost t" data-en="See my work" href="#projects">شوف شغلي</a>
+    </div>
+  </header>
+
+  <!-- ====== نبذة ====== -->
+  <section id="about">
+    <h2 class="t" data-en="About me">نبذة عني</h2>
+    <div class="card">
+      <!-- اكتب نبذة عنك هنا -->
+      <p class="t" data-en="I’m a student at the Faculty of Computers and Artificial Intelligence, passionate about programming, web development and machine learning. I love turning ideas into real projects, and I keep improving my skills and learning new technologies. I’m currently looking for internships and hands-on experience where I can contribute and grow.">طالب بكلية الحاسبات والذكاء الاصطناعي، شغوف بالبرمجة وتطوير الويب والتعلّم الآلي. أحب تحويل الأفكار إلى مشاريع حقيقية، وأعمل باستمرار على تطوير مهاراتي وتعلّم تقنيات جديدة. أبحث حاليًا عن فرص تدريب وتجارب عملية أضيف فيها وأتعلم.</p>
+      <p class="info t" data-en="Marital status: Single">الحالة الاجتماعية: أعزب</p>
+      <div class="chips">
+        <!-- عدّل المهارات أو انسخ سطر وزوّد غيره -->
+        <span class="chip t" data-en="Python">Python</span>
+        <span class="chip t" data-en="HTML & CSS">HTML & CSS</span>
+        <span class="chip t" data-en="JavaScript">JavaScript</span>
+        <span class="chip t" data-en="Machine Learning">تعلّم الآلة</span>
+        <span class="chip t" data-en="Data Structures & Algorithms">هياكل البيانات والخوارزميات</span>
+        <span class="chip t" data-en="Git & GitHub">Git & GitHub</span>
+        <span class="chip t" data-en="Problem Solving">حل المشكلات</span>
+        <span class="chip t" data-en="Teamwork">العمل الجماعي</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== المشاريع ====== -->
+  <section id="projects">
+    <h2 class="t" data-en="My work">أعمالي</h2>
+    <div class="grid">
+      <!-- كل كارت = مشروع. انسخه لو عايز تزود -->
+      <article class="card project">
+        <span class="tag t" data-en="Web Development">تطوير ويب</span>
+        <h3 class="t" data-en="My Personal Website">موقعي الشخصي</h3>
+        <p class="t" data-en="A bilingual personal website with a modern design, dark mode and smooth animations, built with HTML, CSS and JavaScript.">موقع شخصي ثنائي اللغة بتصميم عصري ووضع غامق وحركات انسيابية، مبني بـ HTML وCSS وJavaScript.</p>
+        <a class="t" data-en="View project →" href="#">شوف المشروع ←</a>
+      </article>
+      <article class="card project">
+        <span class="tag t" data-en="Artificial Intelligence">ذكاء اصطناعي</span>
+        <h3 class="t" data-en="Image Classifier">مصنّف الصور</h3>
+        <p class="t" data-en="A machine learning model that classifies images using Python and TensorFlow, with accuracy evaluation.">نموذج تعلّم آلة يصنّف الصور باستخدام Python وTensorFlow، مع تقييم دقة النموذج.</p>
+        <a class="t" data-en="View project →" href="#">شوف المشروع ←</a>
+      </article>
+      <article class="card project">
+        <span class="tag t" data-en="Application">تطبيق</span>
+        <h3 class="t" data-en="Task Manager App">تطبيق إدارة المهام</h3>
+        <p class="t" data-en="An app to organize daily tasks with categories, reminders and an easy-to-use interface.">تطبيق لتنظيم المهام اليومية مع تصنيفات وتنبيهات وواجهة سهلة الاستخدام.</p>
+        <a class="t" data-en="View project →" href="#">شوف المشروع ←</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ====== التواصل ====== -->
+  <section id="contact">
+    <h2 class="t" data-en="Contact me">تواصل معايا</h2>
+    <div class="contact">
+      <!-- كل كارت = وسيلة تواصل. عدّل الرابط في href والنص اللي ظاهر -->
+      <a href="mailto:ahmadmajdy2006@gmail.com"><span>✉️</span><div><b class="t" data-en="Email">الإيميل</b><span dir="ltr">ahmadmajdy2006@gmail.com</span></div></a>
+      <a href="https://wa.me/201060717252" target="_blank" rel="noopener"><span>💬</span><div><b class="t" data-en="Phone / WhatsApp">الهاتف / واتساب</b><span dir="ltr">01060717252</span></div></a>
+      <a href="https://github.com/Megz-6" target="_blank" rel="noopener"><span>🐙</span><div><b>GitHub</b><span dir="ltr">Megz-6</span></div></a>
+      <a href="https://instagram.com/megz__6" target="_blank" rel="noopener"><span>📸</span><div><b class="t" data-en="Instagram">إنستجرام</b><span dir="ltr">@megz__6</span></div></a>
+      <a href="#" id="copy-insta" title="Copy"><span>💳</span><div><b class="t" data-en="InstaPay (tap to copy)">إنستاباي (اضغط للنسخ)</b><span dir="ltr">megz_6@instapay</span></div></a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="t" data-en="© 2026 — Ahmed Magdy Mohamed. All rights reserved.">© 2026 — أحمد مجدي محمد. كل الحقوق محفوظة.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
